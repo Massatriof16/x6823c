@@ -23,7 +23,7 @@ on post-fs
     
     
     on fs
-   # install_keyring
+   install_keyring
 
 service mtk.plpath.utils.link /system/bin/mtk_plpath_utils
     class main
@@ -86,7 +86,7 @@ on property:twrp.decrypt.done=true
     stop gatekeeper-1-0
 
 on boot
-    start boot-hal-1-1
+    start boot-hal-1-2
     start health-hal-2-1
     start keymaster-4-1
     start gatekeeper-1-0
