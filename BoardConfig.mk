@@ -10,6 +10,9 @@ DEVICE_PATH := device/infinix/X6823C
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
+# Test Fix Boot
+TW_NO_FASTBOOT_BOOT := true
+
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
