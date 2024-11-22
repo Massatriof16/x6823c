@@ -23,7 +23,7 @@ on post-fs
     
     
 on fs
-    #install_keyring
+    install_keyring
 
 service mtk.plpath.utils.link /system/bin/mtk_plpath_utils
     class main
