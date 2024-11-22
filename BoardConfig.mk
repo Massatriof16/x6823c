@@ -133,8 +133,7 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 TARGET_RECOVERY_DEVICE_MODULES += \
     libkeymaster4 \
     libpuresoftkeymasterdevice \
-    android.hardware.keymaster@4.0 \
-    android.hardware.gatekeeper@1.0
+    
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libkeymaster4.so \
