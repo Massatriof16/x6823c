@@ -9,7 +9,9 @@ DEVICE_PATH := device/infinix/X6823C
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-
+TW_EXCLUDE_LPDUMP := true
+TW_EXCLUDE_FB2PNG := true
+TW_EXCLUDE_SUPERSU := true
 # Test Fix Boot
 TW_NO_FASTBOOT_BOOT := true
 
