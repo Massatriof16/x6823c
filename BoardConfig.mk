@@ -6,7 +6,7 @@
 #
 
 DEVICE_PATH := device/infinix/X6823C
-
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 BUILD_BROKEN_DUP_RULES := true
