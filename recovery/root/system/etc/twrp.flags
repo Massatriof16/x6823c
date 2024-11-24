@@ -32,11 +32,15 @@
 /system_ext_ext4	    auto	/dev/block/dm-0      flags=backup=1;display="System_Ext_Ext4";wipeingui
 
 /super            emmc        /dev/block/platform/bootdevice/by-name/super                        flags=display="Super";backup=1;flashimg=1             
-/system_image	    emmc	/dev/block/mapper/system    flags=backup=1;display="System";flashimg;slotselect
-/vendor_image	    emmc	/dev/block/mapper/vendor    flags=backup=1;display="Vendor";flashimg;slotselect
-/product_image	    emmc	/dev/block/mapper/product   flags=backup=1;display="Product";flashimg;slotselect
-/system_ext_image	    emmc	/dev/block/mapper/system_ext    flags=backup=1;display="System_Ext";flashimg;slotselect
+/system_image_a	    emmc	/dev/block/mapper/system_a    flags=backup=1;display="System Image A";flashimg
+/vendor_image_a	    emmc	/dev/block/mapper/vendor_a    flags=backup=1;display="Vendor Image A";flashimg
+/product_image_a	    emmc	/dev/block/mapper/product_a   flags=backup=1;display="Product Image A";flashimg
+/system_ext_image_a	    emmc	/dev/block/mapper/system_ext_a    flags=backup=1;display="System_Ext Image A";flashimg
 
+/system_image_b	    emmc	/dev/block/mapper/system_b    flags=backup=1;display="System Image B";flashimg
+/vendor_image_b	    emmc	/dev/block/mapper/vendor_b    flags=backup=1;display="Vendor Image B";flashimg
+/product_image_b	    emmc	/dev/block/mapper/product_b   flags=backup=1;display="Product Image B";flashimg
+/system_ext_image_b	    emmc	/dev/block/mapper/system_ext_b    flags=backup=1;display="System_Ext Image B";flashimg
 
 
 # AVB
