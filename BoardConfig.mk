@@ -4,6 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+TW_NO_REBOOT_FASTBOOT := true
 
 DEVICE_PATH := device/infinix/X6823C
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
