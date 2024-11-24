@@ -38,7 +38,8 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl
 
 PRODUCT_PACKAGES_DEBUG += \
-    bootctrl.mt6765
+    bootctrl.mt6765 \
+    bootctrl.mt6762
 
 # Fastbootd
 PRODUCT_PACKAGES += \
